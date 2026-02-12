@@ -1,19 +1,16 @@
- {
--  "name": "hf-vless-node",
-+  "name": "hf-space-websocket-demo",
-   "version": "1.0.0",
--  "description": "VLESS on HF",
-+  "description": "Compliant WebSocket demo app for Hugging Face Spaces",
-   "main": "index.js",
-   "scripts": {
--    "start": "node index.js"
-+    "start": "node index.js",
-+    "check": "node --check index.js"
-   },
-   "dependencies": {
-     "ws": "^8.16.0"
-   },
-   "engines": {
-     "node": "18.x"
-   }
- }
+{
+  "name": "hf-ws-relay",
+  "version": "1.0.0",
+  "description": "Single-file Node.js HTTP + WebSocket relay service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
