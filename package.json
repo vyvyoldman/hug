@@ -1,20 +1,26 @@
 {
-  "name": "vless-ws-server",
+  "name": "vless-websocket-server",
   "version": "1.0.0",
-  "description": "Lightweight VLESS over WebSocket server",
+  "description": "VLESS WebSocket Server with TLS support",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "vless",
     "websocket",
-    "proxy"
+    "proxy",
+    "tls"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "ws": "^8.18.0"
+    "axios": "^1.6.0",
+    "ws": "^8.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
   },
   "engines": {
     "node": ">=14.0.0"
