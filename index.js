@@ -6,7 +6,7 @@ const { TextDecoder } = require('util');
 const log = console.log;
 
 // --- 1. 配置区域 (环境变量) ---
-const UUID = process.env.UUID || '5efabea4-f6d4-91fd-b8f0-17e004c89c60'; // 务必修改
+const UUID = process.env.UUID || '0be2f204-11e3-4d32-88f0-d946d94b484f'; // 务必修改
 const PORT = process.env.PORT || 7860;
 const DOMAIN = process.env.DOMAIN || ''; // 填写你的域名，例如：app.serv00.com，用于保活
 const AUTO_ACCESS = process.env.AUTO_ACCESS || true; // 是否开启自动保活
